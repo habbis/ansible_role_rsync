@@ -1,11 +1,11 @@
 ---
 - name: setup puppet agent
   gather_facts: yes
-  remote_user: root
-  #remote_user: ansible
-  #become: yes
+  #remote_user: root
+  remote_user: ansible
+  become: yes
   #become_method: sudo
-  hosts: test
+  hosts: ssl_server
   #hosts: puppet-clients
   #hosts: all
   vars_files:

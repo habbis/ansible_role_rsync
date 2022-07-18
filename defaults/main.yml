@@ -7,4 +7,4 @@ delete: no
 recursive: yes
 # In push mode the localhost or delegate is the source.
 # In pull mode the remote host in context is the source.
- mode: push
+mode: push
