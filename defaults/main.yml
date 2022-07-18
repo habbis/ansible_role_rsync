@@ -1,2 +1,10 @@
 ---
 # variables
+src_path: /root/test
+dest_path: /root/test
+# Delete files in dest that do not exist (after transfer, not before) in the src path.
+delete: no
+recursive: yes
+# In push mode the localhost or delegate is the source.
+# In pull mode the remote host in context is the source.
+ mode: push
